@@ -1,0 +1,14 @@
+# Sovereign-JHam-Core/workflow_map.yaml
+version: 1.0
+mission: CONSTRUCTION_BEYOND
+paths:
+  - id: PRIMARY_SYNC
+    steps:
+      - trigger: voice_input
+        action: universal_translator.py
+      - trigger: translated_intent
+        action: pilot_architect_sync.py
+      - trigger: geometric_data
+        action: universal_adapter.py
+      - trigger: render_complete
+        action: echo_chamber.py
