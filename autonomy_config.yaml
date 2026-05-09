@@ -1,0 +1,9 @@
+# Sovereign-JHam-Core/autonomy_config.yaml
+autonomy_level: HIGH_FIDELITY
+auto_repair:
+  slop_detection: ENABLED
+  geometric_drift: AUTO_CORRECT
+  mirror_wipe_protection: LOCK_DOWN
+targets:
+  - /mnt/lysander_flagship
+  - /mnt/demon_engine_150
