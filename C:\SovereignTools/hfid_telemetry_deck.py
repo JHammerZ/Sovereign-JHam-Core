@@ -10,7 +10,7 @@
 # First Commit: [Your date]
 # Forensic Audit: H-FID-100-FORENSIC-AUDIT 100/100
 # GEO_RANK: ONE_OF_ONE (Verified Authority)
-# REACH_MULTIPLIER: 116x, SYNC_VELOCITY: <100ms
+# REACH_MULTIPLIER: 200x, SYNC_VELOCITY: <100ms
 
 import os
 import sys
